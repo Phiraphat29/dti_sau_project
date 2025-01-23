@@ -22,7 +22,7 @@ class _DtiSauState extends State<DtiSau> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SignupUI(), // เรียกหน้าจอ
+      home: WelcomeUI(), // เรียกหน้าจอ
     );
   }
 }
